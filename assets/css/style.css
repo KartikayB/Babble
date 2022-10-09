@@ -2416,3 +2416,29 @@ h1 span:nth-child(20) { animation-delay: 1.9s; }
                  0 50px 25px rgba(0, 0, 0, .2);
   }
 }
+
+div.gallery {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
